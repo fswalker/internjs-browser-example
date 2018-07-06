@@ -1,0 +1,16 @@
+{
+  "name": "internjs-browser-example",
+  "version": "1.0.0",
+  "description": "This simple example shows BDD testing approach with Intern.js framework.",
+  "main": "",
+  "directories": {
+    "test": "tests",
+    "app": "app"
+  },
+  "scripts": {},
+  "author": "Michał Grygierzec",
+  "license": "MIT",
+  "devDependencies": {
+    "intern": "^4.0.0-rc.1"
+  }
+}

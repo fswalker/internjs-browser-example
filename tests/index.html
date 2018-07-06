@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+</head>
+
+<body>
+    <script src="intern.js"></script>
+    <script src="../app/moment.js"></script>
+    <script src="../app/legacy.js"></script>
+    <script>
+        intern.configure({
+            suites: [
+                'tests/unit/legacyTest.js'
+            ],
+            reporters: 'html'
+        });
+        intern.run();
+    </script>
+</body>
+
+</html>
